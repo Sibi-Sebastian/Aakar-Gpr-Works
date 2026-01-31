@@ -1,0 +1,565 @@
+/* Global Max-Width Constraints and Typography for AAKAR GPR WORKS Website */
+
+/* 
+ * This stylesheet ensures all sections and pages have a consistent max-width
+ * preventing content from stretching too wide on large screens
+ * Also includes global typography standards for better readability
+ */
+
+/* Global container max-width settings */
+:root {
+    --max-content-width: 1400px;
+    --max-narrow-width: 1200px;
+    --max-text-width: 800px;
+    --container-padding: 40px;
+    --container-padding-mobile: 20px;
+}
+
+
+/* Desktop Typography (768px and above) */
+@media (min-width: 768px) {
+    h2 {
+        font-size: var(--h2-desktop) !important;
+        line-height: var(--heading-line-height-desktop) !important;
+    }
+    
+    h3 {
+        font-size: var(--h3-desktop) !important;
+        line-height: var(--heading-line-height-desktop) !important;
+    }
+    
+    h4 {
+        font-size: var(--h4-desktop) !important;
+        line-height: var(--heading-line-height-desktop) !important;
+    }
+    
+    h5 {
+        font-size: var(--h5-desktop) !important;
+        line-height: var(--heading-line-height-desktop) !important;
+    }
+    
+    h6 {
+        font-size: var(--h6-desktop) !important;
+        line-height: var(--heading-line-height-desktop) !important;
+    }
+    
+    p, .paragraph-text {
+        font-size: var(--p-desktop) !important;
+        line-height: var(--paragraph-line-height-desktop) !important;
+    }
+    
+    small, .small-text, .meta-text {
+        font-size: var(--small-desktop) !important;
+        line-height: var(--paragraph-line-height-desktop) !important;
+    }
+}
+
+/* Mobile Typography (below 768px) */
+@media (max-width: 767px) {
+    h2 {
+        font-size: var(--h2-mobile) !important;
+        line-height: var(--heading-line-height-mobile) !important;
+    }
+    
+    h3 {
+        font-size: var(--h3-mobile) !important;
+        line-height: var(--heading-line-height-mobile) !important;
+    }
+    
+    h4 {
+        font-size: var(--h4-mobile) !important;
+        line-height: var(--heading-line-height-mobile) !important;
+    }
+    
+    h5 {
+        font-size: var(--h5-mobile) !important;
+        line-height: var(--heading-line-height-mobile) !important;
+    }
+    
+    h6 {
+        font-size: var(--h6-mobile) !important;
+        line-height: var(--heading-line-height-mobile) !important;
+    }
+    
+    p, .paragraph-text {
+        font-size: var(--p-mobile) !important;
+        line-height: var(--paragraph-line-height-mobile) !important;
+    }
+    
+    small, .small-text, .meta-text {
+        font-size: var(--small-mobile) !important;
+        line-height: var(--paragraph-line-height-mobile) !important;
+    }
+}
+
+/* H1 Exception - Preserve existing styling (especially in hero section) */
+h1 {
+    /* H1 keeps its existing styling - no global override */
+}
+
+/* Specific typography classes for better control */
+.readable-text {
+    font-size: var(--p-desktop);
+    line-height: var(--paragraph-line-height-desktop);
+}
+
+@media (max-width: 767px) {
+    .readable-text {
+        font-size: var(--p-mobile);
+        line-height: var(--paragraph-line-height-mobile);
+    }
+}
+
+/* ========================================
+   GLOBAL TYPOGRAPHY STANDARDS
+   ======================================== */
+
+/* Desktop Typography (Medium-Large screens) */
+@media (min-width: 769px) {
+    /* Headings - excluding H1 which stays as-is in hero section */
+    h2 {
+        font-size: 36px !important;
+        line-height: 1.25 !important;
+    }
+    
+    h3 {
+        font-size: 30px !important;
+        line-height: 1.3 !important;
+    }
+    
+    h4 {
+        font-size: 24px !important;
+        line-height: 1.35 !important;
+    }
+    
+    h5 {
+        font-size: 20px !important;
+        line-height: 1.25 !important;
+    }
+    
+    h6 {
+        font-size: 18px !important;
+        line-height: 1.25 !important;
+    }
+    
+    /* Body text */
+    p, 
+    .paragraph,
+    .description,
+    .content-text,
+    .text-content,
+    li,
+    .list-item,
+    .about-text p,
+    .showcase-description,
+    .feature-content,
+    .intro-text,
+    .statement-text,
+    .luxury-description p,
+    .artist-quote p,
+    .quote-text {
+        font-size: 18px !important;
+        line-height: 1.7 !important;
+    }
+    
+    /* Small text / meta */
+    .small-text,
+    .meta-text,
+    small,
+    .caption,
+    .subtitle,
+    .note,
+    .artist-title,
+    .stat-label,
+    .specialty-tag,
+    .hero-subtitle,
+    .hero-description,
+    .statement-attribution,
+    .scroll-text,
+    .cultural-signature span {
+        font-size: 15px !important;
+        line-height: 1.65 !important;
+    }
+}
+
+/* Mobile Typography (Medium-Large, not cramped) */
+@media (max-width: 768px) {
+    /* Headings - excluding H1 which stays as-is in hero section */
+    h2 {
+        font-size: 28px !important;
+        line-height: 1.3 !important;
+    }
+    
+    h3 {
+        font-size: 24px !important;
+        line-height: 1.3 !important;
+    }
+    
+    h4 {
+        font-size: 20px !important;
+        line-height: 1.3 !important;
+    }
+    
+    h5 {
+        font-size: 18px !important;
+        line-height: 1.3 !important;
+    }
+    
+    h6 {
+        font-size: 16px !important;
+        line-height: 1.3 !important;
+    }
+    
+    /* Body text */
+    p, 
+    .paragraph,
+    .description,
+    .content-text,
+    .text-content,
+    li,
+    .list-item,
+    .about-text p,
+    .showcase-description,
+    .feature-content,
+    .intro-text,
+    .statement-text,
+    .luxury-description p,
+    .artist-quote p,
+    .quote-text {
+        font-size: 16px !important;
+        line-height: 1.65 !important;
+    }
+    
+    /* Small text / meta */
+    .small-text,
+    .meta-text,
+    small,
+    .caption,
+    .subtitle,
+    .note,
+    .artist-title,
+    .stat-label,
+    .specialty-tag,
+    .hero-subtitle,
+    .hero-description,
+    .statement-attribution,
+    .scroll-text,
+    .cultural-signature span {
+        font-size: 22px !important;
+        line-height: 1.6 !important;
+    }
+}
+
+/* Preserve H1 styling in hero section - exclude from global changes */
+.hero-section h1,
+.hero-content h1,
+.luxury-frame h1,
+.luxury-title {
+    /* Keep existing H1 styles intact - no changes */
+}
+
+/* Additional typography improvements for better readability */
+/* Ensure consistent font weights for better readability */
+@media (min-width: 769px) {
+    /* Make sure body text has good contrast and readability */
+    .about-text,
+    .showcase-text,
+    .feature-list,
+    .intro-content,
+    .artist-info-side {
+        font-size: 18px !important;
+        line-height: 1.7 !important;
+    }
+    
+    /* Section titles and headings */
+    .section-title,
+    .showcase-title,
+    .artist-name {
+        line-height: 1.25 !important;
+    }
+    
+    /* Navigation and UI elements */
+    .nav-link,
+    .nav-item,
+    .menu-item,
+    .button-text,
+    .btn-text,
+    .contact-btn {
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+    }
+    
+    /* Footer elements */
+    .footer-links a,
+    .footer-column p,
+    .contact-info p,
+    .copyright p {
+        font-size: 15px !important;
+        line-height: 1.65 !important;
+    }
+    
+    /* Footer headings */
+    .footer-column h3,
+    .social-title {
+        font-size: 20px !important;
+        line-height: 1.25 !important;
+    }
+    
+    /* Card and gallery text */
+    .card-content p,
+    .offer-item p,
+    .reason-item p,
+    .gallery-section .section-header p,
+    .gallery-section .hero-overlay p {
+        font-size: 15px !important;
+        line-height: 1.65 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Make sure body text has good contrast and readability on mobile */
+    .about-text,
+    .showcase-text,
+    .feature-list,
+    .intro-content,
+    .artist-info-side {
+        font-size: 16px !important;
+        line-height: 1.65 !important;
+    }
+    
+    /* Section titles and headings on mobile */
+    .section-title,
+    .showcase-title,
+    .artist-name {
+        line-height: 1.3 !important;
+    }
+    
+    /* Navigation and UI elements on mobile */
+    .nav-link,
+    .nav-item,
+    .menu-item,
+    .button-text,
+    .btn-text,
+    .contact-btn {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+    }
+    
+    /* Footer elements on mobile */
+    .footer-links a,
+    .footer-column p,
+    .contact-info p,
+    .copyright p {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+    }
+    
+    /* Footer headings on mobile */
+    .footer-column h3,
+    .social-title {
+        font-size: 18px !important;
+        line-height: 1.3 !important;
+    }
+    
+    /* Card and gallery text on mobile */
+    .card-content p,
+    .offer-item p,
+    .reason-item p,
+    .gallery-section .section-header p,
+    .gallery-section .hero-overlay p {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+    }
+}
+
+/* Apply max-width to all main containers */
+.section-container,
+.container,
+.hero-content,
+.content-grid,
+.artistic-composition {
+    max-width: var(--max-content-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: var(--container-padding) !important;
+    padding-right: var(--container-padding) !important;
+}
+
+/* Specific max-width for text-heavy sections */
+/* .intro-content, */
+.section-description,
+.luxury-description p,
+.statement-text {
+    max-width: var(--max-text-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Hero sections - slightly wider but still constrained */
+.hero-section .hero-content,
+.about-hero .hero-content {
+    max-width: var(--max-content-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: var(--container-padding) !important;
+    padding-right: var(--container-padding) !important;
+}
+
+/* Hero frame elements should also be constrained */
+.luxury-frame {
+    max-width: var(--max-content-width) !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 auto !important;
+}
+
+/* Grid layouts - ensure they don't exceed max width */
+.content-grid,
+.offer-grid,
+.reasons-grid,
+.side-cards {
+    max-width: var(--max-content-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Navigation - full width but content constrained */
+.main-navbar .navbar-container {
+    max-width: var(--max-content-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: var(--container-padding) !important;
+    padding-right: var(--container-padding) !important;
+}
+
+/* Footer - content constrained */
+.footer-content,
+.footer-container {
+    max-width: var(--max-content-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: var(--container-padding) !important;
+    padding-right: var(--container-padding) !important;
+}
+
+/* Section headers */
+.section-header {
+    max-width: var(--max-narrow-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Cards and components */
+.featured-video-card,
+.side-card,
+.offer-item,
+.reason-item {
+    max-width: 100% !important; /* Let them fill their grid containers */
+}
+
+/* CTA sections */
+.cta-section .container,
+.cta-content {
+    max-width: var(--max-narrow-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .section-container,
+    .container,
+    .hero-content,
+    .content-grid,
+    .artistic-composition,
+    .hero-section .hero-content,
+    .about-hero .hero-content,
+    .main-navbar .navbar-container,
+    .footer-content,
+    .footer-container {
+        padding-left: var(--container-padding-mobile) !important;
+        padding-right: var(--container-padding-mobile) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-container,
+    .container,
+    .hero-content,
+    .content-grid,
+    .artistic-composition,
+    .hero-section .hero-content,
+    .about-hero .hero-content,
+    .main-navbar .navbar-container,
+    .footer-content,
+    .footer-container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* Ensure background elements can still be full width */
+.hero-background,
+.hero-video,
+.hero-overlay,
+.luxury-frame,
+.luxury-vignette,
+.rising-from-ruins::before,
+.what-we-offer::before,
+.why-choose-us::before {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+/* Special handling for sections that need full-width backgrounds */
+.hero-section,
+.rising-from-ruins,
+.what-we-offer,
+.why-choose-us,
+.about-hero,
+.introduction,
+.cta-section {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* But their content should be constrained */
+.hero-section > *:not(.hero-background):not(.luxury-frame):not(.luxury-vignette),
+.rising-from-ruins > .section-container,
+.what-we-offer > .container,
+.why-choose-us > .container,
+.about-hero > .hero-content,
+.introduction > .container,
+.cta-section > .container {
+    max-width: var(--max-content-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Hero section specific constraints */
+.hero-section .hero-content {
+    max-width: var(--max-content-width) !important;
+    padding-left: var(--container-padding) !important;
+    padding-right: var(--container-padding) !important;
+    margin: 0 auto !important;
+}
+
+.hero-section .luxury-frame {
+    max-width: var(--max-content-width) !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.hero-section .cultural-signature {
+    right: var(--container-padding) !important;
+}
+
+.hero-section .frame-corner.top-left,
+.hero-section .frame-corner.bottom-left {
+    left: var(--container-padding) !important;
+}
+
+.hero-section .frame-corner.top-right,
+.hero-section .frame-corner.bottom-right {
+    right: var(--container-padding) !important;
+}
