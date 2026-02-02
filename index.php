@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta property="og:title" content="AAKAR GPR WORKS | Where Art Meets Excellence">
-<meta property="og:description" content="Professional sculptures, 3D models, and artistic creations that transform spaces.">
-<meta property="og:image" content="https://www.yourdomain.com/images/og-preview.jpg">
-<meta property="og:url" content="https://www.yourdomain.com">
+
+<title>AAKAR GPR WORKS | Sculptures & Artistic Creations</title>
+
+<meta name="description" content="AAKAR GPR Works creates high-quality sculptures, statues, and artistic installations across Karnataka. Custom sculpting with traditional craftsmanship.">
+
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="AAKAR GPR WORKS | Where Art Meets Excellence">
+<meta property="og:description" content="Professional sculptures, statues, and artistic creations that transform spaces.">
+<meta property="og:image" content="https://aaramu.com/images/og-preview.jpg">
+<meta property="og:url" content="https://aaramu.com">
 <meta property="og:type" content="website">
-    
-    
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/webp" href="images/aakar-logo.webp">
-    
-    <!-- Preload critical assets -->
-    <link rel="preload" href="images/aakar-logo.webp" as="image">
-    <link rel="preload" href="images/aaramu-projects-carousal-video.mp4" as="video" type="video/mp4">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
+<!-- Favicon -->
+<link rel="icon" type="image/webp" href="images/aakar-logo.webp">
+
+<!-- Preload critical assets -->
+<link rel="preload" href="images/aakar-logo.webp" as="image">
+<link rel="preload" href="images/aaramu-projects-carousal-video.mp4" as="video" type="video/mp4">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- Global Styles -->
     <link rel="stylesheet" href="global-max-width.css">
     <style>

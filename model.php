@@ -1,15 +1,32 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>AAKAR GPR WORKS | ART-MASTER | 3D Models & Miniatures</title>
+
+    <!-- SEO -->
+    <meta name="description" content="AAKAR GPR Works specializes in detailed 3D models and miniature sculptures for temples, architecture, exhibitions, and custom artistic projects.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="AAKAR GPR WORKS | 3D Models & Miniatures">
+    <meta property="og:description" content="Precision-crafted 3D models and miniature sculptures created with artistic mastery and attention to detail.">
+    <meta property="og:image" content="https://aaramu.com/images/og-preview.jpg">
+    <meta property="og:url" content="https://aaramu.com/3d-models.html">
+    <meta property="og:type" content="website">
+
     <!-- Favicon -->
     <link rel="icon" type="image/webp" href="images/aakar-logo.webp">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
+
+<style>
         :root {
             --primary-dark: #1A1A1A;
             --primary-light: #FFFFFF;

@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>AAKAR GPR WORKS | ART-MASTER | Our Services</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Explore the services offered by AAKAR GPR Works, including custom sculptures, statues, artistic installations, and traditional sculpting across Karnataka.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="AAKAR GPR WORKS | Our Services">
+    <meta property="og:description" content="Custom sculptures, statues, and artistic installations crafted with traditional expertise and artistic excellence.">
+    <meta property="og:image" content="https://aaramu.com/images/og-preview.jpg">
+    <meta property="og:url" content="https://aaramu.com/services.html">
+    <meta property="og:type" content="website">
+
     <!-- Favicon -->
     <link rel="icon" type="image/webp" href="images/aakar-logo.webp">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
+
+<style>
         :root {
             --primary-dark: #1A1A1A;
             --primary-light: #FFFFFF;

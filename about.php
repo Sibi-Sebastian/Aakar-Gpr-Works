@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>AAKAR GPR WORKS | About Us - Artistic Excellence</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- SEO -->
+    <meta name="description" content="Learn about AAKAR GPR Works — experts in sculptures, statues, and artistic installations across Karnataka. Traditional craftsmanship with modern vision.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Google / WhatsApp / Facebook preview) -->
+    <meta property="og:title" content="AAKAR GPR WORKS | About Us">
+    <meta property="og:description" content="Discover the story behind AAKAR GPR Works and our passion for sculpting and artistic excellence.">
+    <meta property="og:image" content="https://aaramu.com/images/og-preview.jpg">
+    <meta property="og:url" content="https://aaramu.com/about.html">
+    <meta property="og:type" content="website">
+
     <!-- Favicon -->
     <link rel="icon" type="image/webp" href="images/aakar-logo.webp">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Global CSS -->
     <link rel="stylesheet" href="global-max-width.css">
-        
+ 
     <!-- Favicon -->
     <link rel="icon" type="image/webp" href="images/aakar-logo.webp">
     <style>

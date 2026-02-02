@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>AAKAR GPR WORKS | Gallery - Artistic Excellence</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Explore the gallery of AAKAR GPR Works showcasing handcrafted sculptures, statues, 3D models, and artistic installations across Karnataka.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="AAKAR GPR WORKS | Gallery">
+    <meta property="og:description" content="A visual showcase of our sculptures, statues, 3D models, and artistic masterpieces.">
+    <meta property="og:image" content="https://aaramu.com/images/og-preview.jpg">
+    <meta property="og:url" content="https://aaramu.com/gallery.html">
+    <meta property="og:type" content="website">
+
     <!-- Favicon -->
     <link rel="icon" type="image/webp" href="images/aakar-logo.webp">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Global CSS -->
     <link rel="stylesheet" href="global-max-width.css">
-    <style>
+
+<style>
         :root {
             --primary-dark: #1A1A1A;
             --primary-light: #FFFFFF;
